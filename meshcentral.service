@@ -1,0 +1,16 @@
+[Unit]
+Description=MeshCentral Server
+After=network.target
+
+[Service]
+Type=simple
+LimitNOFILE=1000000
+ExecStart=/usr/bin/node /usr/lib/node_modules/meshcentral/meshcentral.js --cert camerahikvision.ddns.net
+WorkingDirectory=/opt/meshcentral
+Environment=NODE_ENV=production
+User=meshcentral
+Group=meshcentral
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,35 @@
+{
+  "settings": {
+    "cert": "camerahikvision.ddns.net",
+    "port": 443,
+    "aliasPort": 443,
+    "redirPort": 80,
+    "allowLoginToken": true,
+    "allowFraming": true,
+    "webRTC": true,
+    "clickOnce": true,
+    "_minify": true,
+    "sessKey": "myReallySecretPassword",
+    "webPush": false,
+    "compression": true,
+    "wsCompression": true,
+    "agentPing": 60,
+    "tlsOffload": false,
+    "selfUpdate": true,
+    "cors": false,
+    "cookieIpCheck": false,
+    "cookieEncoding": "hex"
+  },
+  "domains": {
+    "": {
+      "title": "MeshCentral",
+      "title2": "Remote Management",
+      "newAccounts": true,
+      "userNameIsEmail": true,
+      "certUrl": "camerahikvision.ddns.net",
+      "geoLocation": true,
+      "cookieIpCheck": false,
+      "authStrength": 2
+    }
+  }
+}
