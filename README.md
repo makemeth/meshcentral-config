@@ -16,7 +16,7 @@ This repository contains configuration and deployment scripts for MeshCentral se
 
 1. Clone this repository:
 ```bash
-git clone [your-repo-url]
+git clone https://github.com/makemeth/meshcentral-config.git
 cd meshcentral-config
 ```
 
